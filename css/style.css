@@ -1,0 +1,16 @@
+/** setting margin-top dan margin-buttom pada */
+/** element p yang yang ada pada class card */
+.card p{
+    margin-top: -10px;
+    margin-buttom: 1px;
+}
+
+/** menambahkan efek hover yang ada pada class card */
+/** dimana class card tersebut ada didalam class row */
+.row .card:hover{
+    /** membuat bayangan ke atas 2px, kanan-kiri 2px, kebawah 2px */
+    /** dengan warna red 0, green 0, blue 0, alpha 0.4 */
+    box-shadow: 2px 2px 2px rgba{0, 0, 0, 0.4};
+    /** menambahkan transform-scale 1.02 */
+    transform:scale(1.02) ;
+}
